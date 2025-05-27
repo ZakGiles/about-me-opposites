@@ -219,6 +219,7 @@ li {
 
 #project {
     background-color: #8c8fa1;
+    border-radius: 100%;
 }
 
 #project p {
@@ -236,9 +237,9 @@ li {
 #project-thumbnail {
     margin-top: 0;
     padding-top: 0;
-    width: 32em;
-    height: 32em;
+    width: 32vh;
+    height: 32vh;
     background-color: #8c8fa1;
     padding: 2em;
-    border-radius: 8em;
+    border-radius: 16vh;
 }
