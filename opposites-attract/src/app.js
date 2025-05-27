@@ -23,7 +23,7 @@ function switchThemes () {
     if (currentState) {
         css.setAttribute("href", "light.css");
         try {
-            profilePicture.setAttribute("src", "me.jpg")
+            profilePicture.setAttribute("src", "cat1.jpg")
             for (let i = 0; i < 3; i++) {
                 factsLight[i].removeAttribute("hidden");
                 factsDark[i].setAttribute("hidden","hidden");
