@@ -85,6 +85,7 @@ for (let control of controls) {
             updatePosition(car);
         } catch {
             alert("You have crashed");
+            location.reload(); 
         }
         
     })
