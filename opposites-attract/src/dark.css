@@ -41,7 +41,12 @@ div .navbar {
     cursor: pointer;
     background-color: #b4befe;
     color: #1e1e2e;
-    
+    transition: 0.1s;
+}
+
+#button-change-theme:hover {
+    background-color: #8c8fa1;
+    color: #eff1f5;
 }
 
 ul {
