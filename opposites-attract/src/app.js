@@ -45,6 +45,19 @@ function switchThemes () {
     console.log("Switched themes!");
 };
 
+function showProfileToolTip () {
+    document.querySelector(".tooltip").removeAttribute("hidden");
+    console.log("meow");
+}
+
+function hideProfileToolTip () {
+    document.querySelector(".tooltip").setAttribute("hidden", "hidden");
+    console.log("meow");
+}
+try {
+hideProfileToolTip();
+} catch {};
+
 let cookie = document.cookie;
 
 if (getCookie("cookie") != "") {
@@ -62,4 +75,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let button = document.querySelector("button");
     button.addEventListener('click', switchThemes);
 });
+
+try {
+document.getElementById("profile").addEventListener("mouseover", showProfileToolTip);
+document.getElementById("profile").addEventListener("mouseout", hideProfileToolTip);
+} catch {};
+
 

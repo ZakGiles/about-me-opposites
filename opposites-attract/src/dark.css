@@ -22,9 +22,17 @@ div .navbar {
     background-color: #b4befe;
 }
 
+.tooltip {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+    padding: 1em;
+    position: absolute;
+    border-radius: 2em;
+}
+
 #change-theme {
     position: fixed;
-    top: 40%;
+    top: 60%;
     left:1%;
     border-radius: 2vh;
     width: 10em;

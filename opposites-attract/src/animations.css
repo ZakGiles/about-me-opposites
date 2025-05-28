@@ -5,10 +5,32 @@
 
 
 a {
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 
 a:hover {
     transform: translate(10px,-5px);
     z-index: 10;
+}
+
+#profile {
+    transition: 0.5s;
+}
+
+#profile:hover {
+    transform: translate(10px,-5px);
+}
+
+ul {
+    transition: transform 0.2s;
+}
+
+ul:hover {
+    transform: translate(10px,-5px);
+}
+
+.tooltip {
+    top: 7vh;
+    left: 5vh;
+    font-size: 1vw;
 }
