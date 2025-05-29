@@ -15,7 +15,6 @@ function getCookie(cname) {
 };
 
 function switchThemes () {
-    console.log("Switching themes...")
     factsLight = document.querySelectorAll("#light");
     factsDark = document.querySelectorAll("#dark");
     profilePicture = document.querySelector("#profile");
@@ -23,7 +22,7 @@ function switchThemes () {
     if (currentState) {
         css.setAttribute("href", "light.css");
         try {
-            profilePicture.setAttribute("src", "cat1.jpg")
+            profilePicture.setAttribute("src", "cat1.jpg");
             for (let i = 0; i < 3; i++) {
                 factsLight[i].removeAttribute("hidden");
                 factsDark[i].setAttribute("hidden","hidden");
@@ -54,6 +53,7 @@ function hideProfileToolTip () {
     document.querySelector(".tooltip").setAttribute("hidden", "hidden");
     console.log("meow");
 }
+
 try {
 hideProfileToolTip();
 } catch {};
